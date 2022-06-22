@@ -30,7 +30,7 @@
                      x:Name="btnOnOff"
                      MinimumHeightRequest="360"
                      MinimumWidthRequest="821"
-                     VerticalOptions="Start"
+                     VerticalOptions="Center"
                      HorizontalOptions="Center"
                      Aspect="AspectFill"
                      BackgroundColor="#232323"
@@ -54,7 +54,9 @@
                Style="{ StaticResource textoBranco }"
                FontAttributes="Italic"
                HorizontalTextAlignment="Center"
-               TextColor="Red" />
+               TextColor="Red"
+               IsVisible="false"/>
+        
     </Grid>
     
 </ContentPage>
