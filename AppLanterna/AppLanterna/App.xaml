@@ -18,7 +18,21 @@
                 </Setter>
             </Style>
 
-            <Style x:Key="titulo" TargetType="Label" BaseResourceKey="fonteCustomizada" >
+            
+            <Style TargetType="Label" x:Key="fonteCustomizada1">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="VerticalOptions" Value="Center" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="FontFamily">
+                    <Setter.Value>
+                        <OnPlatform x:TypeArguments="x:String"
+                                    Android="IronSans.ttf#IronSans" />
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            
+            <Style x:Key="titulo" TargetType="Label" BaseResourceKey="fonteCustomizada1" >
                 <Setter Property="FontSize" Value="70" />
             </Style>
 
